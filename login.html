@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="bungkus">
+	<!--header-->
+	<div id="header">
+		<!--acccount-->
+		<div id="account">
+			<ul>
+				<li><a href="login.html">Account</a> |</li>  
+				<li><a href="#"> Wishlist</a> |</li> 
+				<li><a href="login.html"> Log In</a> |</li> 
+				<li><a href="register.html"> Sign Up</a></li>
+			</ul>
+		</div><!--//account-->
+	</div>
+
+	<div id="header-bawah">
+		<div id="logo">
+			<img src="images/logo.png">
+		</div>
+
+		<div id="menu">
+			<ul>
+				<li><a id="active" href="home.html">Home</a></li>
+				<li><a href="#">Women</a></li>
+				<li><a href="#">Men</a></li>
+				<li><a href="#">Kids</a></li>
+			</ul>
+		</div>
+
+		<div id="header-bawah-kanan">
+			<div id="search">
+				<form action="home.html">
+					<input type="text" name="search" class="textbox" value="search" onfocus="this.value ='';" onblur="if (this.value=='') {this.value='search';}">
+					<input type="submit" id="submit" name="submit">
+				</form>
+			</div>
+			<div id="tag-list">
+				<a href="#"><img src="images/cart.png"></a>
+				<a href="#"><img src="images/tag.png"></a>
+				<a class="Cart" href="#">Cart(0)</a>
+			</div>
+		</div>
+	</div><!--//header-bawah-->
+
+	<div id="login">
+		<div id="wrap">
+			<div id="pelanggan-baru">
+				<h3 class="title">Pelanggan Baru</h3>
+				<p>Untuk pelanggan baru silahkan untuk membuat account terlebih dahulu</p>
+				<div id="button">
+					<a href="register.html"><input type="submit" name="submit" value="Create an Account"></a>
+				</div>
+			</div><!--//pelanggan-baru-->
+			<div id="register-new">
+				<div id="login1">
+					<h3 class="title1">Register</h3>
+					<div id="kotak-login">
+						<form action="home.html" method="post" name="login">
+							<div id="e-mail">
+								<p>E-mail</p>
+								<input type="text" name="E-mail" autocomplete="off" size="18">
+							</div><!--//e-mail-->
+							<div id="password1">
+								<p>Password</p>
+								<input type="password" name="password" size="18" autocomplete="off">
+							</div><!--password-->
+							<div id="remember">
+								<p id="lupa-password">
+									<a href="register.html">Lupa Password ?</a>
+								</p>
+								<a href=""><input type="submit" name="submit" value="Login"></a>
+							</div><!--//remember-->
+						</form>
+					</div>
+				</div>
+			</div>
+		</div><!--//wrap-->
+	</div><!--//login-->
+	<div id="footer">
+		<div id="footer-atas">
+			<ul>
+				<li><img src="images/2.png"><p>Free Ongkir ke seluruh indonesia</p></li>
+				<li><img src="images/3.png"><p>Hubungi kami (0361)-234-786</p></li>
+			</ul>
+		</div>
+	</div>
+</div><!--//bungkus-->
+</body>
+</html>
+

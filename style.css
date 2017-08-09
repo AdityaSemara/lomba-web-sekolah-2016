@@ -1,0 +1,503 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+/*--bungkus--*/
+#bungkus{
+	width: 1366px;
+	overflow-x: hidden;
+	height: auto;
+}
+
+
+/*--header--*/
+#header{
+	width: 1366px;
+	height: 40px;
+	background-color: #4cb1ca;
+}
+
+/*--account--*/
+#account{
+	height: 40px;
+	float: right;
+	color: #96e8fc;
+	padding-right: 10px;
+	overflow-y: hidden;
+}
+#account ul li{
+	display: inline-block;
+	line-height: 40px;
+}
+#account li {
+	padding-right: 10px;
+	font-size:  0.8125em;
+}
+#account a{
+	color: #fff;
+	text-decoration: none;
+}
+#account a:hover{
+	color: #ACEAFA; 
+}
+
+/*--header-bawah*/
+#header-bawah{
+	height: 100px;
+	overflow-y: hidden;
+}
+
+#logo{
+	padding-left: 30px;
+	float: left;
+	padding-top: 15px;
+}
+
+#menu{
+	float: left;
+	margin-left: 60px; 
+	line-height: 100px;
+}
+#menu ul li{
+	list-style-type: none;
+	padding-right: 10px;
+	display: inline-block;
+	font-size: 20px;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #777;
+	text-transform: uppercase;
+}
+#menu li a{
+	padding-right: 30px;
+}
+#menu a:hover{
+	color: black;
+	transition: 4s;
+}
+#menu ul li #active{
+	color: black;
+}
+
+
+#header-bawah-kanan{
+	float:right;
+	width:30.5%;
+	margin-top:30px;
+}
+#search {
+	background:#fff;
+	border: 1px solid #ddd;
+	position: relative;
+	float:left;
+	margin:6px 20px 0 0;
+}
+#search input[type="text"] {
+	border: none;
+	outline: none;
+	background: none;
+	font-size:0.85em;
+	font-family: 'Exo 2', sans-serif;
+	color:#777;
+	width:130px;
+	padding:7px;
+	margin:0;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+}
+#search input[type="text"]:focus{
+	width:150px;
+}
+#search input[type="submit"] {
+	border: none;
+	text-indent: -9999px;
+	outline:none;
+	cursor: pointer;
+	background: url("images/search.png") no-repeat 0px 3px; 
+	width:30px;
+	height:25px;
+	padding:8px;
+}	
+#search input[type="submit"]:active {
+	position:relative;
+}
+
+#tag-list{
+	float: left;
+	margin-left:0px;
+}
+.Cart{
+	font-size: 25px;
+	padding-top: 7px;
+	padding-left: 5px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	float: right;
+
+}
+.Cart:hover{
+	color: blue;
+}
+
+
+/*--content-slider--*/
+#content-slider{
+	position: relative;
+	overflow: hidden;
+	width: 1366px;
+	margin:10px auto;
+}
+#slideshow{
+	width: 1000%;
+	-webkit-animation: slideshow 10s infinite;
+}
+#slideshow img{
+	float: left;
+	width: 1366px;
+}
+
+/*--animation--*/
+@-webkit-keyframes slideshow {
+	0%, 10%, 100% {
+		margin-left: 0;
+	}
+	20%, 30% {
+		margin-left: -1366px;
+	}
+	40%, 50%{
+		margin-left: -1366px;
+	}
+	60%, 70%{
+		margin-left: -1366px;
+	}
+	80%{
+		margin-left: 0;
+	}
+}
+
+#isi{
+	height: auto;
+	width: auto;
+}
+
+#head{
+	padding-top: 0px;
+	font-size: 1.7em;
+	text-transform: uppercase;
+	color: #777;
+	margin-bottom: 10px;
+	font-family: 'Exo 2', sans-serif;
+	height: 60px; 
+}
+#head h3{
+	padding-left: 50px;
+	line-height: 60px;
+}
+
+#box{
+	margin-left: 25px;
+}
+/**** Grid 1_0f_4 ****/
+#produk{
+	margin-left: 50px;
+}
+#kotak-produk{
+	border: 2px solid #ddd;
+	width: 250px;
+	height:350px;
+	border-radius: 3px;
+	float: left;
+	margin-right: 10px;
+}
+
+#gambar img{
+	width: 250px;
+}
+#gambar h3{
+	color: #6A82A4;
+	text-align: center;
+	font-size: 1.1em;
+}
+#detail{
+	text-align: center;
+	border-top: 1px solid blue;
+	margin-top: 5px;
+}
+.price{
+	font-size: 1em;
+}
+#tombol{
+	display: inline-block;
+	margin-top: 10px;
+}
+#tombol h4{
+	display: inline-block;
+}
+#tombol h4 a{
+	display:block;
+	padding:5px 10px;
+	font-size: 0.9em;
+	background-color: #4cb1ca;
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+#tombol h4 a:hover{
+	background:#292929;
+}
+.bawah{
+	margin-left: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*--footer--*/
+#footer{
+	height:auto; 
+}
+#footer-atas{
+	background-color:#4cb1ca;
+	height: 100px; 
+}
+#footer-atas ul li{
+	display: inline-block;
+	margin-left: 100px;
+	float: left;
+}
+#footer-atas ul{
+	margin-top:15px; 
+}
+#footer-atas p{
+	margin-top: 25px;
+	float: right;
+	color: #fff;
+	font-size: 30px;
+	padding-left: 20px;
+}
+
+
+
+/*========register===================*/
+.title{
+	color: #777;
+	padding-bottom:10px;
+	text-transform: uppercase;
+	padding-left: 20px;
+}
+.wrap{
+	margin-left: 30px;
+}
+.register_account{
+	border-top:1px solid #ddd;
+	padding:2% 0;
+}
+.register_account form input[type="text"], .register_account form select {
+	font-size:0.95em;
+	color:#777;
+	padding: 8px;
+	outline: none;
+	margin:10px 0;
+	width:91%;
+	font-family: 'Exo 2', sans-serif;
+	border:none;
+	box-shadow:0 0 2px #aaa;
+	-webkit-box-shadow:0 0 2px #aaa;
+	-moz-box-shadow:0 0 2px #aaa;
+	-o-box-shadow:0 0 2px #aaa;
+}
+.register_account form input[type="text"]:hover, .register_account form select:hover {
+	box-shadow:0 0 4px #aaa;
+	-webkit-box-shadow:0 0 4px #aaa;
+	-moz-box-shadow:0 0 4px #aaa;
+	-o-box-shadow:0 0 4px #aaa;
+}
+.register_account form input[type="text"].code {
+	width: 15%;
+}
+.register_account form input[type="text"].number {
+	width: 69.8%;
+}
+p.terms a, p.note a {
+	text-decoration: underline;
+	color:#555;
+}
+p.terms {
+	float: left;
+	font-size: 12px;
+	padding: 15px 0 0 15px;
+	margin-top:30px 
+}
+button.grey{
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	background: #555;
+	font-size:0.95;
+	line-height: 16px;
+	text-transform: uppercase;
+	padding:10px 30px;
+	color: #FFF;
+	border: none;
+	float: left;
+	font-family: 'Exo 2', sans-serif;
+	outline:none;
+	margin-top: 30px;
+}
+button.grey:hover {
+	background:#4CB1CA;
+	color: #FFF;
+}
+.register_account form input[type="text"].code {
+	width: 15%;
+}
+p.code{
+	color:#777;
+}
+p.cart{
+	color:#777;
+	font-size:0.85em;
+	line-height:1.8em;
+}
+p.cart a{
+	text-decoration:underline;
+	color:#000;
+}
+p.cart a:hover{
+	text-decoration:none;
+}
+/*=======login=================*/
+#login{
+	border-top:1px solid #ddd;
+	padding: 2% 0;
+	height: 355px;
+}
+#pelanggan-baru:first-child{
+	margin-left: 0px;
+}
+#pelanggan-baru{
+	float: left;
+	background-color: #f7f7f7;
+	height: 247px;
+}
+#pelanggan-baru{
+	width:44.2%;
+	padding:1.5%;
+}
+#wrap{
+	margin-left: 100px;
+}
+#pelanggan-baru p{
+	color: #777;
+	font-size:0.85em;
+	line-height:1.8em;
+}
+#button{
+	float:right;
+	margin-top: 6%;
+}
+#button input[type="submit"] {
+	background:#555;
+	border: none;
+	color: #FFF;
+	padding:10px 20px;
+	cursor: pointer;
+	float: right;
+	font-family: 'Exo 2', sans-serif;
+	outline:none;
+	font-size:1em;
+	margin-top: 107px;
+}
+#button input[type="submit"]:hover{
+	background-color: black;
+	transition: 2s;
+}
+
+#login1{
+	float: left;
+	background-color: #f7f7f7;
+	margin-left: 40px;
+	width: 70%;
+	padding:1.5%;
+	height: auto;
+}
+.title{
+	color: #555;
+	margin-bottom: 0.5em;
+	font-size: 1.4em;
+	line-height: 1.2;
+	font-weight: normal;
+	margin-top: 0px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #DFDDDD;
+	padding-bottom: 13px;
+}
+.title1{
+	color: #555;
+	margin-bottom: 0.5em;
+	font-size: 1.4em;
+	line-height: 1.2;
+	font-weight: normal;
+	margin-top: 10px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #DFDDDD;
+	padding-bottom: 13px;
+}
+#e-mail p{
+	color: #777;
+}
+#e-mail input[type="text"]{
+	box-shadow:0 0 2px #aaa;
+	width: 99%;
+	margin-top:5px; 
+	height: 20px;
+}
+#password1{
+	margin-top: 20px;
+}
+#password1 p{
+	color: #777;
+}
+#password1 input[type="password"]{
+	box-shadow: 0 0 2px #aaa;
+	width: 99%;
+	margin-top:5px;
+	height: 20px; 
+}
+#remember{
+	margin-top: 30px;
+}
+#lupa-password{
+	position: relative;
+}
+#lupa-password a{
+	color: #777;
+}
+#lupa-password a:hover{
+	text-decoration: none;
+}
+#remember input[type="submit"]{
+	background:#555;
+	border: none;
+	color: #FFF;
+	padding:10px 20px;
+	cursor: pointer;
+	float: right;
+	font-size:1em;
+}
+#remember input[type="submit"]:hover{
+	background-color: black;
+	transition: 2s;
+}
+
+
+
